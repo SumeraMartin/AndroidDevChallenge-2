@@ -17,27 +17,46 @@ package com.example.androiddevchallenge.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.androiddevchallenge.R
 
-// Set of Material typography styles to start with
+private val assistantFontFamily = FontFamily(
+    fonts = listOf(
+        Font(
+            resId = R.font.assistant_light,
+            weight = FontWeight.W300,
+            style = FontStyle.Normal
+        ),
+        Font(
+            resId = R.font.assistant_medium,
+            weight = FontWeight.W500,
+            style = FontStyle.Normal
+        ),
+        Font(
+            resId = R.font.assistant_regular,
+            weight = FontWeight.W400,
+            style = FontStyle.Normal
+        ),
+    )
+)
+
 val typography = Typography(
     body1 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = assistantFontFamily,
+        fontSize = 16.sp,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
-    )
-        /* Other default text styles to override
-    button = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.W500,
-        fontSize = 14.sp
+        lineHeight = 28.sp,
+        letterSpacing = 0.15.sp
     ),
-    caption = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 12.sp
-    )
-    */
+    body2 = TextStyle(
+        fontFamily = assistantFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Medium,
+        lineHeight = 20.sp,
+        letterSpacing = 0.25.sp
+    ),
 )
