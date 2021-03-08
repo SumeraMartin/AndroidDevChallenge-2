@@ -1,22 +1,17 @@
-# Timer
+# Timer (AndroidDevChallenge #2)
 
 ![Workflow result](https://github.com/SumeraMartin/AndroidDevChallenge-2/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
-An ordinary timer created with extraordinary technology
+This app is created as a submission for the second week of the Android developer challenge.
+
+It is an ordinary timer created with extraordinary technology
 
 
 ## :bulb: Motivation and Context
 
-My motivation is to get better in the Jetpack Compose :muscle:
-
-You should look up
-
-- Animation of "vibrating" circles
-- Animation of number sliding
-
-
+As part of this task, I wanted to test different content animation options. I can say that it's really great, simple and easy to use.
 
 ## :camera_flash: Screenshots
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
