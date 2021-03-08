@@ -1,17 +1,18 @@
 # Timer
 
-<!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
-<!--- You can find both of these in the url bar when you open your repository in github. -->
 ![Workflow result](https://github.com/SumeraMartin/AndroidDevChallenge-2/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
-A simple timer
+An ordinary timer created with extraordinary technology
 
 
 ## :bulb: Motivation and Context
-<!--- Optionally point readers to interesting parts of your submission. -->
-<!--- What are you especially proud of? -->
+
+My motivation is to get better in the Jetpack Compose :muscle:
+
+You should look up
+
 - Animation of "vibrating" circles
 - Animation of number sliding
 
