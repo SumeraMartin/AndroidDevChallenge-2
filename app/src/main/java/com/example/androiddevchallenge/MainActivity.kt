@@ -20,19 +20,11 @@ import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.LinearGradient
 import com.example.androiddevchallenge.ui.screens.timer.TimerScreen
 import com.example.androiddevchallenge.ui.theme.TimerTheme
-import com.example.androiddevchallenge.ui.theme.blueHour
-import com.example.androiddevchallenge.ui.theme.blueSunny
 import com.example.androiddevchallenge.ui.theme.purpleOutside
 import com.example.androiddevchallenge.ui.theme.purpleSnake
-import com.example.androiddevchallenge.ui.theme.whiteOriginal
 import com.example.androiddevchallenge.ui.utils.modifiers.verticalGradientBackground
 
 class MainActivity : AppCompatActivity() {
